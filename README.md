@@ -2,6 +2,8 @@
 
 Professional QR Code Generator built with React and Material Design 3. Generate high-quality QR codes from URLs with customizable options.
 
+**Live Demo**: [https://guillewan2.github.io/qrcodegen](https://guillewan2.github.io/qrcodegen)
+
 ## Features
 
 - Modern Material Design 3 interface
@@ -32,6 +34,13 @@ Professional QR Code Generator built with React and Material Design 3. Generate 
 
 ## Installation
 
+### GitHub Pages (Production)
+
+The application is automatically deployed to GitHub Pages at:
+**https://guillewan2.github.io/qrcodegen**
+
+Every push to the `main` branch triggers an automatic deployment via GitHub Actions.
+
 ### Local Development
 
 1. Clone the repository:
@@ -52,7 +61,22 @@ npm run dev
 
 4. Open your browser and navigate to `http://localhost:3000`
 
-### Docker Deployment
+## Deployment
+
+### GitHub Pages
+
+The application is automatically deployed to GitHub Pages using GitHub Actions.
+
+**Setup Steps:**
+1. Go to your repository settings on GitHub
+2. Navigate to Pages section (Settings > Pages)
+3. Under "Build and deployment", select:
+   - Source: GitHub Actions
+4. The workflow will automatically deploy on every push to main
+
+**Live URL**: https://guillewan2.github.io/qrcodegen
+
+### Docker Deployment (Local)
 
 1. Clone the repository:
 ```bash
